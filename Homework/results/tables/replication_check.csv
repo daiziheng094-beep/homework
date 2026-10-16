@@ -1,0 +1,17 @@
+quantity,replication,replication_se,paper,paper_se,difference,source
+Table 4 (i) NJ dummy,2.3258311888831806,1.191596277699937,2.33,1.19,-0.0041688111168194375,"AER 1994, Table 4 (text layer)"
+Table 4 (ii) NJ dummy + controls,2.3038595094333236,1.1955324787616088,2.3,1.2,0.0038595094333238045,"AER 1994, Table 4 (text layer)"
+Table 4 (iii) Wage gap,15.652889576153786,6.080236876609744,15.65,6.08,0.002889576153785711,"AER 1994, Table 4 (text layer)"
+Table 4 (iv) Wage gap + controls,14.915673959184073,6.205334559746607,14.92,6.21,-0.004326040815927357,"AER 1994, Table 4 (text layer)"
+Table 4 (v) Wage gap + controls + regions,11.979236582986779,7.419121422693467,11.91,7.39,0.06923658298677893,"AER 1994, Table 4 (text layer)"
+Table 4 sample size,357.0,,357.0,,0.0,"AER 1994, Table 4 notes"
+Table 3: DID in employment change,2.75,1.342340976908276,2.76,1.36,-0.009999999999999787,"AER 1994 p. 779 text (2.76 FTE, t = 2.03; SE implied by t)"
+"Employment level, NJ wave 1",20.439408099688475,0.5082607034147913,20.4,0.51,0.03940809968847603,"AER 1994, Table 2 employment row (1 d.p.)"
+"Employment level, NJ wave 2",21.02742946708464,0.5203094414948162,21.0,0.52,0.02742946708464089,"AER 1994, Table 2 employment row (1 d.p.)"
+"Employment level, PA wave 1",23.33116883116883,1.3511488614751332,23.3,,0.031168831168830735,AER 1994 p. 776 text (1 d.p.; SE not in text layer)
+"Employment level, PA wave 2",21.165584415584416,0.9432211554579522,21.2,0.94,-0.03441558441558357,"AER 1994, Table 2 employment row (1 d.p.)"
+Mean of dependent variable,-0.23753501400560229,,-0.237,,-0.0005350140056022967,"AER 1994, Table 4 notes"
+Std. dev. of dependent variable,8.825484522270923,,8.825,,0.0004845222709235486,"AER 1994, Table 4 notes"
+NJ stores with wave-1 wage = $4.25,101.0,,101.0,,0.0,"AER 1994, Table 3 notes"
+NJ stores with wave-1 wage $4.26-$4.99,140.0,,140.0,,0.0,"AER 1994, Table 3 notes"
+NJ stores with wave-1 wage >= $5.00,73.0,,73.0,,0.0,"AER 1994, Table 3 notes"

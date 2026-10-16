@@ -1,0 +1,32 @@
+This directory contains an ascii file of data 
+
+tn8992.dat
+
+
+and a sas program 
+
+xstate.sas
+
+that reads the data and computes some of the
+cross-state regressions reported in tables 4.4 and 4.5 of Myth 
+and Measurement.
+
+The log and listing created by the xstate.sas program are also 
+included (xstate.log; xstate.lst) in order to check the means
+and display the raw data.
+
+The data are for 51 states, with information on teenage employment-
+population (1986-92), and overall employment-population and unemployment
+rates (1986-1992), all taken from Geographic Profiles of Unemployment
+and Employment.  In addition, there are data for 1989 and 1992 on:
+
+-mean log wages of teens in the state (computed from CPS data)
+-fraction of teens earning below the minimum wage, at the minimum
+ wage, and between the old and new minimum wages (computed from CPS data)
+-mean log wage of adult men in the state (computed from CPS data)
+-a variable representing the number of teens observed in the 1989 CPS
+ merged annual file for the state (used as a weight)
+
+
+
+The labels in the sas program should be self-explanatory.

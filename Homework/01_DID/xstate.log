@@ -1,0 +1,159 @@
+1                                                          The SAS System                                16:29 Monday, July 24, 1995
+
+NOTE: Copyright(c) 1989 by SAS Institute Inc., Cary, NC USA. 
+NOTE: SAS (r) Proprietary Software Release 6.09  TS027
+      Licensed to PRINCETON UNIVERSITY, Site 0021396028.
+
+
+
+WARNING: Could not open NEWS file /usr/sas/misc/news.
+
+
+NOTE: AUTOEXEC processing beginning; file is /usr/sas/autoexec.sas.
+
+NOTE: SAS initialization used:
+      real time           2.11 seconds
+      cpu time            0.18 seconds
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          COMMENT xstate: READS flat file of cross-state teen data;
+2          
+3          data check;
+4          title1 '1989-92 cross-state comparisons -- chapter 4 models';
+5          
+6          infile '/home/decard/minbook/fedmin/teens/tn8992.dat';
+7          
+8          input state $ 1-9 fips temp86-temp92 emp86-emp92 ur86-ur92
+9                submin89 atmin89 affect1 affect2 submin92 atmin92
+10               lwage89 lwage92 std89 std92 lwmen89 lwmen92 n_89;
+11         
+12         label fips='fips state code'
+13               temp86='teenage epop rate, 1986'
+14               emp86='overall epop rate 1986'
+15               ur86='unempl. rate 1986'
+16               temp92='teenage epop rate, 1992'
+17               emp92='overall epop rate 1992'
+18               ur92='unempl. rate 1992'
+19               submin89='frac wage <$3.35/hr, 1989'
+20               submin92='frac wage <$4.25/hr, 1992'
+21               atmin89='fract wage = $3.35, 1989'
+22               atmin92='fract wage = $4.25, 1992'
+23               affect1='fract wage $3.35-3.799, 1989'
+24               affect2='fract wage $3.35-4.249, 1989'
+25               lwage89='mean log wage teens 1989'
+26               lwage92='mean log wage teens 1992'
+27               std89='std dev of log teen wage, 1989'
+28               std92='std dev of log teen wage, 1992'
+29               lwmen89='mean log wage men age25+, 1989'
+30               lwmen92='mean log wage men age25+, 1992'
+31               n_89='# teens in cps extract, 1989';
+32         
+33         
+34         
+35         DTEMP1=TEMP91-TEMP89;
+36         DTEMP2=TEMP92-TEMP89;
+37         DEMP1=EMP91-EMP89;
+38         DEMP2=EMP92-EMP89;
+39         DWAGE2=LWAGE92-LWAGE89;
+40         dwmen=lwmen92-lwmen89;
+2                                                          The SAS System                                16:29 Monday, July 24, 1995
+
+41         dur2=ur92-ur89;
+42         
+
+NOTE: The infile '/home/decard/minbook/fedmin/teens/tn8992.dat' is:
+      File Name=/home/decard/minbook/fedmin/teens/tn8992.dat,
+      Owner Name=decard,Group Name=staff,
+      Access Permission=rw-r--r--,
+      File Size (bytes)=13005
+
+NOTE: 51 records were read from the infile '/home/decard/minbook/fedmin/teens/tn8992.dat'.
+      The minimum record length was 254.
+      The maximum record length was 254.
+NOTE: Missing values were generated as a result of performing an operation on missing values.
+      Each place is given by: (Number of times) at (Line):(Column).
+      1 at 35:14   1 at 36:14   1 at 38:12   1 at 41:10   
+NOTE: The data set WORK.CHECK has 51 observations and 43 variables.
+NOTE: DATA statement used:
+      real time           1.22 seconds
+      cpu time            0.16 seconds
+
+
+43         proc means;
+44         title2 'check on output of basic teen data';
+45         var temp86-temp92 emp86-emp92 ur86-ur92
+46             submin89 atmin89 affect1 affect2 submin92 atmin92
+47             lwage89 lwage92 std89 std92 lwmen89 lwmen92 n_89;
+48         
+49         
+
+NOTE: The PROCEDURE MEANS printed page 1.
+NOTE: PROCEDURE MEANS used:
+      real time           0.09 seconds
+      cpu time            0.04 seconds
+
+
+50         proc corr;
+51         var dtemp2 dwage2 demp2 dur2 dwmen;
+52         
+
+NOTE: The PROCEDURE CORR printed page 2.
+NOTE: PROCEDURE CORR used:
+      real time           1.79 seconds
+      cpu time            0.09 seconds
+
+
+53         PROC PRINT;
+54         VAR STATE FIPS TEMP89-TEMP92 EMP89-EMP92 AFFECT1 AFFECT2;
+55         
+56         
+57         *basic models from myth and measurement, table 4.4, panel c;
+58         
+
+NOTE: The PROCEDURE PRINT printed page 3.
+NOTE: PROCEDURE PRINT used:
+      real time           0.32 seconds
+      cpu time            0.03 seconds
+
+
+3                                                          The SAS System                                16:29 Monday, July 24, 1995
+
+59         proc reg;
+60         model dwage2=affect2;
+61         model dwage2=affect2 demp2;
+62         model dwage2=affect2 demp2 dwmen;
+63         model dtemp2=affect2;
+64         model dtemp2=affect2 demp2;
+65         model dtemp2=affect2 demp2 dwmen;
+66         WEIGHT N_89;
+67         
+68         
+69         
+70         
+71         
+72         
+73         
+74         
+75         
+76         
+77         
+78         
+79         
+80         
+81         
+NOTE: 51 observations read.
+NOTE: 1 observations have missing values.
+NOTE: 50 observations used in computations.
+NOTE: The PROCEDURE REG printed pages 4-9.
+NOTE: PROCEDURE REG used:
+      real time           1.63 seconds
+      cpu time            0.10 seconds
+
+
+NOTE: The SAS System used:
+      real time           7.53 seconds
+      cpu time            0.66 seconds
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414

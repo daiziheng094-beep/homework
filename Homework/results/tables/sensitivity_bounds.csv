@@ -1,0 +1,7 @@
+quantity,value,note
+Difference-in-differences estimate (FTE jobs),2.3258311888831806,Positive means relative employment rose in New Jersey.
+Standard error of the estimate,1.191596277699937,Conventional (homoskedastic) regression standard error.
+Bias needed to overturn the sign (FTE jobs),2.3258311888831806,An omitted confound would have to shift the estimate by this much.
+That bias in standard deviations of the outcome,0.26353580735584486,Outcome standard deviation is 8.825 FTE jobs.
+That bias as a share of wave-1 employment,0.110238478824662,Mean wave-1 employment is 21.098 FTE jobs.
+That bias in standard errors,1.9518617441240969,How many standard errors the confound would have to move the estimate.

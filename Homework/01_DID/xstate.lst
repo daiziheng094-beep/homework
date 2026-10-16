@@ -1,0 +1,306 @@
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   1
+                                                 check on output of basic teen data
+
+                Variable  Label                            N          Mean       Std Dev       Minimum       Maximum
+                ----------------------------------------------------------------------------------------------------
+                TEMP86    teenage epop rate, 1986         51     0.4702157     0.0876247     0.2850000     0.6310000
+                TEMP87                                    51     0.4730588     0.0863116     0.2610000     0.6530000
+                TEMP88                                    51     0.4824902     0.0832215     0.2740000     0.6690000
+                TEMP89                                    51     0.4891373     0.0765700     0.3130000     0.6200000
+                TEMP90                                    51     0.4780000     0.0786183     0.3030000     0.6210000
+                TEMP91                                    50     0.4514800     0.0808474     0.2930000     0.6410000
+                TEMP92    teenage epop rate, 1992         50     0.4411000     0.0812352     0.2600000     0.5940000
+                EMP86     overall epop rate 1986          51     0.6168039     0.0439035     0.4500000     0.7000000
+                EMP87                                     51     0.6235686     0.0437992     0.4610000     0.7130000
+                EMP88                                     51     0.6310196     0.0453478     0.4620000     0.7090000
+                EMP89                                     51     0.6375686     0.0407619     0.4900000     0.7030000
+                EMP90                                     51     0.6360784     0.0394294     0.4970000     0.6990000
+                EMP91                                     51     0.6270000     0.0406959     0.4950000     0.6950000
+                EMP92     overall epop rate 1992          50     0.6273600     0.0415956     0.4830000     0.6890000
+                UR86      unempl. rate 1986               51     0.0696863     0.0222984     0.0280000     0.1310000
+                UR87                                      51     0.0626471     0.0214419     0.0250000     0.1200000
+                UR88                                      51     0.0547843     0.0189117     0.0240000     0.1090000
+                UR89                                      51     0.0514902     0.0133377     0.0260000     0.0860000
+                UR90                                      51     0.0538627     0.0112748     0.0220000     0.0830000
+                UR91                                      51     0.0639216     0.0153217     0.0270000     0.1050000
+                UR92      unempl. rate 1992               50     0.0676600     0.0159125     0.0300000     0.1130000
+                SUBMIN89  frac wage <$3.35/hr, 1989       51     0.0792402     0.0404804             0     0.2105210
+                ATMIN89   fract wage = $3.35, 1989        51     0.1269990     0.0950063             0     0.3520450
+                AFFECT1   fract wage $3.35-3.799, 1989    51     0.2914323     0.1672063             0     0.5830180
+                AFFECT2   fract wage $3.35-4.249, 1989    51     0.4585306     0.1854936     0.0697960     0.7288350
+                SUBMIN92  frac wage <$4.25/hr, 1992       51     0.1127762     0.0384561     0.0403580     0.2474620
+                ATMIN92   fract wage = $4.25, 1992        51     0.1815252     0.0966712             0     0.4027000
+                LWAGE89   mean log wage teens 1989        51     1.4529567     0.1244175     1.2563600     1.7837600
+                LWAGE92   mean log wage teens 1992        51     1.5766320     0.0760858     1.4234300     1.7729100
+                STD89     std dev of log teen wage, 1989  51     0.3081852     0.0427277     0.2202290     0.3940600
+                STD92     std dev of log teen wage, 1992  51     0.2834041     0.0448148     0.1877550     0.3748670
+                LWMEN89   mean log wage men age25+, 1989  51     2.3602054     0.1202007     2.1392330     2.6761260
+                LWMEN92   mean log wage men age25+, 1992  51     2.4523078     0.1156587     2.2404100     2.7808030
+                N_89      # teens in cps extract, 1989    51   483.1176471   366.2234644   166.0000000       1381.00
+                ----------------------------------------------------------------------------------------------------
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   2
+                                                 check on output of basic teen data
+
+                                                        Correlation Analysis
+
+                                    5 'VAR' Variables:  DTEMP2   DWAGE2   DEMP2    DUR2     DWMEN   
+
+
+                                                         Simple Statistics
+ 
+           Variable                N             Mean          Std Dev              Sum          Minimum          Maximum
+
+           DTEMP2                 50        -0.051000         0.044327        -2.550000        -0.171000         0.023000
+           DWAGE2                 51         0.123675         0.076163         6.307440        -0.032500         0.351450
+           DEMP2                  50        -0.009800         0.016678        -0.490000        -0.043000         0.030000
+           DUR2                   50         0.016140         0.014283         0.807000        -0.011000         0.048000
+           DWMEN                  51         0.092102         0.025472         4.697221         0.021611         0.153065
+
+
+                      Pearson Correlation Coefficients / Prob > |R| under Ho: Rho=0 / Number of Observations  
+
+                                    DTEMP2            DWAGE2             DEMP2              DUR2             DWMEN
+
+                  DTEMP2           1.00000           0.35825           0.72345          -0.58148           0.05320
+                                    0.0               0.0106            0.0001            0.0001            0.7137
+                                        50                50                50                50                50
+
+                  DWAGE2           0.35825           1.00000           0.58660          -0.57766           0.17415
+                                    0.0106            0.0               0.0001            0.0001            0.2216
+                                        50                51                50                50                51
+
+                  DEMP2            0.72345           0.58660           1.00000          -0.74358           0.09303
+                                    0.0001            0.0001            0.0               0.0001            0.5205
+                                        50                50                50                50                50
+
+                  DUR2            -0.58148          -0.57766          -0.74358           1.00000          -0.10132
+                                    0.0001            0.0001            0.0001            0.0               0.4839
+                                        50                50                50                50                50
+
+                  DWMEN            0.05320           0.17415           0.09303          -0.10132           1.00000
+                                    0.7137            0.2216            0.5205            0.4839            0.0   
+                                        50                51                50                50                51
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   3
+                                                 check on output of basic teen data
+
+     OBS    STATE       FIPS    TEMP89    TEMP90    TEMP91    TEMP92    EMP89    EMP90    EMP91    EMP92    AFFECT1    AFFECT2
+
+       1    MAINE        11      0.494     0.502     0.477     0.437    0.636    0.641    0.628    0.637    0.10707    0.25899
+       2    NEW HAMP     12      0.551     0.556     0.518     0.449    0.703    0.699    0.680    0.666    0.02744    0.16000
+       3    VERMONT      13      0.566     0.521     0.523     0.484    0.688    0.673    0.655    0.664    0.16451    0.32106
+       4    MASSACHU     14      0.527     0.486     0.454     0.426    0.661    0.644    0.616    0.618    0.04616    0.15050
+       5    RHODE IS     15      0.620     0.581     0.494     0.511    0.655    0.624    0.608    0.621    0.03667    0.13110
+       6    CONNECTI     16      0.480     0.498     0.519     0.503    0.675    0.676    0.669    0.660    0.00966    0.06980
+       7    NEW YORK     21      0.395     0.373     0.313     0.275    0.597    0.596    0.577    0.565    0.19710    0.32822
+       8    NEW JERS     22      0.428     0.403     0.365     0.349    0.634    0.638    0.623    0.608    0.09224    0.19360
+       9    PENNSYLV     23      0.480     0.471     0.455     0.431    0.597    0.595    0.587    0.588    0.26475    0.43064
+      10    OHIO         31      0.501     0.482     0.434     0.438    0.620    0.619    0.613    0.611    0.35339    0.54756
+      11    INDIANA      32      0.606     0.525     0.442     0.435    0.651    0.632    0.617    0.620    0.27684    0.47807
+      12    ILLINOIS     33      0.500     0.465     0.435     0.427    0.640    0.638    0.628    0.631    0.29797    0.45743
+      13    MICHIGAN     34      0.510     0.486     0.453     0.468    0.611    0.605    0.588    0.597    0.31987    0.48727
+      14    WISCONSI     35      0.599     0.621     0.578     0.578    0.681    0.671    0.662    0.677    0.35536    0.57630
+      15    MINNESOT     41      0.604     0.611     0.621     0.594    0.686    0.695    0.695    0.689    0.15473    0.39092
+      16    IOWA         42      0.561     0.543     0.569     0.561    0.672    0.664    0.669    0.682    0.36692    0.62343
+      17    MISSOURI     43      0.519     0.545     0.479     0.505    0.632    0.633    0.638    0.644    0.38244    0.56874
+      18    NORTH DA     44      0.540     0.552     0.546     0.541    0.662    0.661    0.650    0.644    0.48861    0.68760
+      19    SOUTH DA     45      0.560     0.565     0.604     0.568    0.667    0.668    0.672    0.673    0.51382    0.65766
+      20    NEBRASKA     46      0.587     0.591     0.641     0.569    0.659    0.686    0.694    0.689    0.37855    0.56860
+      21    KANSAS       47      0.553     0.565     0.540     0.550    0.665    0.668    0.663    0.680    0.33256    0.53264
+      22    DELAWARE     51      0.587     0.541     0.442     0.500    0.686    0.663    0.648    0.655    0.13912    0.28891
+      23    MARYLAND     52      0.516     0.465     0.401     0.382    0.683    0.671    0.660    0.664    0.16517    0.34499
+      24    DC           53      0.341     0.348      .         .       0.658    0.630    0.606     .       0.11226    0.22044
+      25    VIRGINIA     54      0.464     0.415     0.390     0.396    0.665    0.664    0.667    0.664    0.19888    0.33169
+      26    WEST VIR     55      0.313     0.323     0.307     0.271    0.490    0.497    0.495    0.483    0.58302    0.70301
+      27    NORTH CA     56      0.505     0.465     0.422     0.433    0.663    0.653    0.641    0.640    0.30104    0.49196
+      28    SOUTH CA     57      0.431     0.398     0.380     0.399    0.629    0.632    0.621    0.623    0.41887    0.57727
+      29    GEORGIA      58      0.477     0.469     0.335     0.353    0.642    0.639    0.623    0.615    0.30475    0.41040
+      30    FLORIDA      59      0.472     0.450     0.394     0.382    0.591    0.592    0.576    0.568    0.25563    0.42762
+      31    KENTUCKY     61      0.436     0.437     0.396     0.404    0.584    0.594    0.575    0.576    0.51388    0.72884
+      32    TENNESSE     62      0.434     0.418     0.431     0.400    0.599    0.601    0.591    0.594    0.48006    0.65090
+      33    ALABAMA      63      0.394     0.378     0.358     0.377    0.577    0.571    0.566    0.575    0.32685    0.50152
+      34    MISSISSI     64      0.319     0.303     0.293     0.260    0.568    0.576    0.566    0.566    0.52400    0.66651
+      35    ARKANSAS     71      0.415     0.478     0.437     0.432    0.588    0.588    0.574    0.589    0.51574    0.68526
+      36    LOUISIAN     72      0.334     0.321     0.387     0.328    0.554    0.559    0.573    0.569    0.47927    0.64621
+      37    OKLAHOMA     73      0.426     0.438     0.446     0.412    0.603    0.608    0.591    0.600    0.48035    0.66465
+      38    TEXAS        74      0.426     0.389     0.401     0.407    0.643    0.640    0.638    0.637    0.40141    0.57932
+      39    MONTANA      81      0.504     0.509     0.464     0.479    0.639    0.634    0.627    0.640    0.54628    0.66994
+      40    IDAHO        82      0.538     0.530     0.486     0.509    0.639    0.636    0.635    0.642    0.31980    0.47995
+      41    WYOMING      83      0.502     0.493     0.504     0.481    0.650    0.678    0.667    0.666    0.45235    0.61922
+      42    COLORADO     84      0.514     0.542     0.488     0.432    0.649    0.674    0.670    0.659    0.36428    0.51749
+      43    NEW MEXI     85      0.402     0.401     0.389     0.357    0.594    0.592    0.594    0.595    0.45642    0.64957
+      44    ARIZONA      86      0.483     0.474     0.396     0.352    0.618    0.614    0.594    0.583    0.39206    0.60308
+      45    UTAH         87      0.602     0.600     0.591     0.574    0.678    0.675    0.673    0.670    0.38306    0.50723
+      46    NEVADA       88      0.515     0.503     0.450     0.468    0.680    0.675    0.665    0.652    0.14158    0.37821
+      47    WASHINGT     91      0.546     0.587     0.483     0.509    0.647    0.656    0.631    0.634    0.09374    0.45655
+      48    OREGON       92      0.530     0.508     0.483     0.464    0.644    0.641    0.635    0.625    0.29179    0.52664
+      49    CALIFORN     93      0.471     0.414     0.380     0.357    0.642    0.631    0.612    0.602    0.03310    0.08537
+      50    ALASKA       94      0.437     0.433     0.382     0.407    0.674    0.678    0.663    0.661    0.00000    0.07842
+      51    HAWAII       95      0.431     0.406     0.398     0.431    0.647    0.652    0.668    0.657    0.02167    0.27377
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   4
+                                                 check on output of basic teen data
+
+Model: MODEL1  
+Dependent Variable: DWAGE2                                             
+
+                                                        Analysis of Variance
+
+                                                           Sum of         Mean
+                                  Source          DF      Squares       Square      F Value       Prob>F
+
+                                  Model            1     63.78398     63.78398       67.009       0.0001
+                                  Error           48     45.68993      0.95187
+                                  C Total         49    109.47391
+
+                                      Root MSE       0.97564     R-square       0.5826
+                                      Dep Mean       0.11351     Adj R-sq       0.5739
+                                      C.V.         859.48530
+
+                                                        Parameter Estimates
+
+                            Parameter      Standard    T for H0:                 Variable
+           Variable  DF      Estimate         Error   Parameter=0    Prob > |T|     Label
+
+           INTERCEP   1     -0.011407    0.01648580        -0.692        0.4923  Intercept                               
+           AFFECT2    1      0.283715    0.03465900         8.186        0.0001  fract wage $3.35-4.249, 1989            
+
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   5
+                                                 check on output of basic teen data
+
+Model: MODEL2  
+Dependent Variable: DWAGE2                                             
+
+                                                        Analysis of Variance
+
+                                                           Sum of         Mean
+                                  Source          DF      Squares       Square      F Value       Prob>F
+
+                                  Model            2     67.50907     33.75453       37.805       0.0001
+                                  Error           47     41.96484      0.89287
+                                  C Total         49    109.47391
+
+                                      Root MSE       0.94492     R-square       0.6167
+                                      Dep Mean       0.11351     Adj R-sq       0.6004
+                                      C.V.         832.42034
+
+                                                        Parameter Estimates
+
+                            Parameter      Standard    T for H0:                 Variable
+           Variable  DF      Estimate         Error   Parameter=0    Prob > |T|     Label
+
+           INTERCEP   1      0.030374    0.02594916         1.171        0.2477  Intercept                               
+           AFFECT2    1      0.221424    0.04535218         4.882        0.0001  fract wage $3.35-4.249, 1989            
+           DEMP2      1      1.046779    0.51248411         2.043        0.0467                                          
+
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   6
+                                                 check on output of basic teen data
+
+Model: MODEL3  
+Dependent Variable: DWAGE2                                             
+
+                                                        Analysis of Variance
+
+                                                           Sum of         Mean
+                                  Source          DF      Squares       Square      F Value       Prob>F
+
+                                  Model            3     68.81962     22.93987       25.956       0.0001
+                                  Error           46     40.65430      0.88379
+                                  C Total         49    109.47391
+
+                                      Root MSE       0.94010     R-square       0.6286
+                                      Dep Mean       0.11351     Adj R-sq       0.6044
+                                      C.V.         828.17690
+
+                                                        Parameter Estimates
+
+                            Parameter      Standard    T for H0:                 Variable
+           Variable  DF      Estimate         Error   Parameter=0    Prob > |T|     Label
+
+           INTERCEP   1      0.001015    0.03532402         0.029        0.9772  Intercept                               
+           AFFECT2    1      0.216379    0.04531080         4.775        0.0001  fract wage $3.35-4.249, 1989            
+           DEMP2      1      0.964692    0.51430840         1.876        0.0671                                          
+           DWMEN      1      0.346850    0.28483244         1.218        0.2295                                          
+
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   7
+                                                 check on output of basic teen data
+
+Model: MODEL4  
+Dependent Variable: DTEMP2                                             
+
+                                                        Analysis of Variance
+
+                                                           Sum of         Mean
+                                  Source          DF      Squares       Square      F Value       Prob>F
+
+                                  Model            1     12.63027     12.63027       21.382       0.0001
+                                  Error           48     28.35347      0.59070
+                                  C Total         49     40.98374
+
+                                      Root MSE       0.76857     R-square       0.3082
+                                      Dep Mean      -0.05892     Adj R-sq       0.2938
+                                      C.V.       -1304.33649
+
+                                                        Parameter Estimates
+
+                            Parameter      Standard    T for H0:                 Variable
+           Variable  DF      Estimate         Error   Parameter=0    Prob > |T|     Label
+
+           INTERCEP   1     -0.114513    0.01298682        -8.818        0.0001  Intercept                               
+           AFFECT2    1      0.126250    0.02730291         4.624        0.0001  fract wage $3.35-4.249, 1989            
+
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   8
+                                                 check on output of basic teen data
+
+Model: MODEL5  
+Dependent Variable: DTEMP2                                             
+
+                                                        Analysis of Variance
+
+                                                           Sum of         Mean
+                                  Source          DF      Squares       Square      F Value       Prob>F
+
+                                  Model            2     25.42867     12.71433       38.417       0.0001
+                                  Error           47     15.55507      0.33096
+                                  C Total         49     40.98374
+
+                                      Root MSE       0.57529     R-square       0.6205
+                                      Dep Mean      -0.05892     Adj R-sq       0.6043
+                                      C.V.        -976.32462
+
+                                                        Parameter Estimates
+
+                            Parameter      Standard    T for H0:                 Variable
+           Variable  DF      Estimate         Error   Parameter=0    Prob > |T|     Label
+
+           INTERCEP   1     -0.037068    0.01579852        -2.346        0.0232  Intercept                               
+           AFFECT2    1      0.010790    0.02761158         0.391        0.6977  fract wage $3.35-4.249, 1989            
+           DEMP2      1      1.940279    0.31201363         6.219        0.0001                                          
+
+                                        1989-92 cross-state comparisons -- chapter 4 models          16:29 Monday, July 24, 1995   9
+                                                 check on output of basic teen data
+
+Model: MODEL6  
+Dependent Variable: DTEMP2                                             
+
+                                                        Analysis of Variance
+
+                                                           Sum of         Mean
+                                  Source          DF      Squares       Square      F Value       Prob>F
+
+                                  Model            3     25.43021      8.47674       25.070       0.0001
+                                  Error           46     15.55353      0.33812
+                                  C Total         49     40.98374
+
+                                      Root MSE       0.58148     R-square       0.6205
+                                      Dep Mean      -0.05892     Adj R-sq       0.5957
+                                      C.V.        -986.83081
+
+                                                        Parameter Estimates
+
+                            Parameter      Standard    T for H0:                 Variable
+           Variable  DF      Estimate         Error   Parameter=0    Prob > |T|     Label
+
+           INTERCEP   1     -0.036061    0.02184899        -1.650        0.1057  Intercept                               
+           AFFECT2    1      0.010963    0.02802612         0.391        0.6975  fract wage $3.35-4.249, 1989            
+           DEMP2      1      1.943097    0.31811549         6.108        0.0001                                          
+           DWMEN      1     -0.011905    0.17617758        -0.068        0.9464                                          
+

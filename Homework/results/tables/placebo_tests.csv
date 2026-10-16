@@ -1,0 +1,5 @@
+test,test_zh,n_treated,n_control,did_estimate,std_error,t_statistic,p_value,interpretation
+All New Jersey stores,新泽西：全部门店,290,67,2.3258311888831704,1.4582337523803046,1.5949645830695311,0.11072015596843388,Treated: baseline
+NJ stores paying >= $5.05 in wave 1,新泽西：改革前起薪 ≥ 5.05 美元,25,67,-2.7231343283582086,2.2118873873948224,-1.2311360622954393,0.21827197983975433,Placebo: the law does not bind
+NJ stores paying >= $5.00 in wave 1,新泽西：改革前起薪 ≥ 5.00 美元,67,67,-0.029850746268656803,1.7070487411492385,-0.01748675685063354,0.9860482977347407,Placebo: barely affected
+NJ stores paying <= $4.25 in wave 1,新泽西：改革前起薪 ≤ 4.25 美元,93,67,3.3150377146525436,1.6094205296077957,2.0597709881707513,0.03942043931978456,Treated: fully bound by the law
